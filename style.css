@@ -1,0 +1,166 @@
+body{
+    background-color: #21345E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 100.9%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+}
+
+#conteudo{
+    background-color: whitesmoke;
+    text-decoration: none;
+    height: 800px;
+    margin-top: 5%;
+    margin-left: 22.5%;
+    width: 800px;
+    border-radius: 5%;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    font-size: 1.8vw;
+}
+
+input{
+    text-decoration: none;
+    background-color: #21345E;
+    color: whitesmoke;
+    height: 5%;
+    width: 89%;
+    border-radius: 2.5%;
+    font-size: 1.5vw;
+}
+
+label{
+    margin-top: 50%;
+}
+
+hr{
+    border-color: black;
+    width: 89.5%;
+    margin-left: -0%;
+}
+
+#resultado{
+    margin-top: 10%;
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+footer{
+    margin-top: 10%;
+    background-color: #2e2e2e;
+    width: 101%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -35%;
+}
+
+.rodape{
+    padding-top: 2.5%;
+    font-size: 30px;
+    color: #F0F0F2;
+    margin-left: 5%;
+}
+
+.logotipo img{
+    height: 105px;
+    margin-left: -250%;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    header{
+        width: 222.2%;
+        background-color: #2e2e2e;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 18px 0;
+        margin-top: -2.1%;
+        margin-left: -2.1%;
+    }
+    
+    #conteudo{
+        background-color: whitesmoke;
+        text-decoration: none;
+        height: 800px;
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 800px;
+        border-radius: 5%;
+        padding-top: 2.5%;
+        padding-left: 5%;
+        font-size: 8vw;
+    }
+    
+    input{
+        text-decoration: none;
+        background-color: #21345E;
+        color: whitesmoke;
+        height: 13%;
+        width: 89%;
+        border-radius: 2.5%;
+        font-size: 12vw;
+    }
+    
+    label{
+        margin-top: 50%;
+    }
+    
+    hr{
+        border-color: black;
+        width: 89.5%;
+        margin-left: -0%;
+    }
+    
+    #resultado{
+        margin-top: 20%;
+        font-size: 12vw;
+    }
+    
+    ::placeholder{
+        color: whitesmoke;
+    }
+    
+    footer{
+        margin-top: 142%;
+        background-color: #2e2e2e;
+        width: 216%;
+        margin-left: -5%;
+        margin-right: -0.5%;
+        height: 300px;
+        margin-top: 10%;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -245%;
+    }
+    
+    .rodape{
+        padding-top: 2.5%;
+        font-size: 30px;
+        color: #F0F0F2;
+        margin-left: 5%;
+    }
+    
+    .logotipo img{
+        height: 105px;
+        margin-left: -150%;
+    }
+}
+
