@@ -79,6 +79,10 @@ footer{
     margin-left: -250%;
 }
 
+#mensagem{
+    margin-top: 10%;
+}
+
 @media (max-width: 768px) {
     body{
         background-color: whitesmoke;
@@ -162,5 +166,9 @@ footer{
         height: 105px;
         margin-left: -150%;
     }
-}
 
+    #mensagem{
+        margin-top: 20%;
+        font-size: 12vw;
+    }
+}
